@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    
+}
+@font-face {
+        font-family: 'dotfont';
+        src: url(fonts/Nosutaru-dotMPlusH-10-Regular.ttf);
+        font-style: normal;
+        font-weight: 100;
+    }
+.title{
+    text-align: center;
+    font-family: dotfont;
+    font-size: 50px;
+    color: white;
+}
+.item{
+    margin:auto;
+    height: auto;
+    width: 360px;
+    padding: 10px;
+    border: 3px solid;
+    border-color: white;
+    border-radius: 10px;
+}
+.illust{
+    margin: auto;
+    height: 300px;
+    width: 100px;
+}
+.contents{
+    margin-left: 30px;
+    text-align: left;
+    font-family: dotfont;
+    font-size: 30px;
+    color: white; 
+}

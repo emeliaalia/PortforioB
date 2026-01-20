@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    
+}
+@font-face {
+        font-family: 'dotfont';
+        src: url(fonts/Nosutaru-dotMPlusH-10-Regular.ttf);
+        font-style: normal;
+        font-weight: 100;
+    }
+.top{
+    text-align: center;
+}
+.title{
+    padding: 30px;
+    font-family: dotfont;
+    font-size: 50px;
+    color: white;
+    border-bottom: 3px solid;
+    border-color: white;
+}
+.box{
+    display: flex;
+}
+.menu{
+    flex-direction: column;
+    height: 100vh;
+    width: auto;
+    border-right: 3px solid;
+    border-color: white;
+}
+ul{
+    list-style: none;
+}
+.contents{
+    width: 240px;
+    margin: 20px;
+    padding: 10px;
+    padding-left: 30px;
+    text-align: left;
+    font-family: dotfont;
+    font-size: 30px;
+    border: 3px solid;
+    border-color: white;
+    border-radius: 10px;
+    color: white; 
+}
